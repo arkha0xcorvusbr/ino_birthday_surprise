@@ -17,7 +17,13 @@ Este projeto integra hardware e software para criar uma "bomba-relógio" de aniv
 3. Conecte uma perna do botão ao pino 7 e a perna diagonal oposta ao GND.
 4. Feche o circuito ligando a linha de GND da protoboard a um dos pinos GND do Arduino.
 
-*(Insira aqui a imagem `esquema_protoboard.jpg` do seu circuito montado na bancada)*
+`Exemplos de como a protoboard deve ficar`:
+
+<img width="600" height="400" alt="imagem de exemplo" src="https://github.com/user-attachments/assets/11c8cd19-4656-4152-ab13-78df30444412" />
+
+<img width="600" height="400" alt="WhatsApp Image 2026-10-26 at 00 45 24" src="https://github.com/user-attachments/assets/2a32c085-0daf-44a7-9d2d-47a50a25772c" />
+
+<img width="600" height="400" alt="WhatsApp Image 2026-10-26 at 00 45 25" src="https://github.com/user-attachments/assets/f3ae25ba-5b6c-41a4-a491-97a49fe9b12c" />
 
 ## Configuração do Ambiente (Software)
 
