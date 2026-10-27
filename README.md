@@ -1,17 +1,17 @@
 # Arduino Birthday Trigger & PC Automator
 
-Este projeto integra hardware e software para criar uma "bomba-relógio" de aniversário. Através de um circuito controlado por um Arduino Uno, o sistema realiza uma contagem regressiva visual e sonora, e em seguida, toca a melodia de "Parabéns a Você". Além disso, o microcontrolador envia um comando via porta Serial para um script em Python rodando em segundo plano no computador, disparando automações para a abertura de arquivos, vídeos, imagens ou outros scripts.
+Este projeto integra hardware e software para criar uma "bomba-relógio" de aniversário. Através de um circuito controlado por um Arduino Uno, o sistema realiza uma contagem regressiva, e em seguida, toca a melodia de "Parabéns a Você". Além disso, o Arduino envia um comando via porta Serial para um script em Python rodando em segundo plano no computador, disparando automações para a abertura de arquivos, vídeos, imagens ou outros scripts.
 
 ## Hardware Necessário
-* 1x Placa Arduino Uno;
-* 1x Buzzer Passivo (Conectado ao Pino Digital 8);
+* 1x Arduino Uno;
+* 1x Buzzer (Conectado ao Pino Digital 8);
 * 3x LEDs (Conectados aos Pinos Digitais 2, 3 e 4);
 * 3x Resistores 220Ω (Cada resitor conectado ao ponto positivo de cada LED);
-* 1x Push Button Tátil (Conectado ao Pino Digital 7);
+* 1x Push Button (Conectado ao Pino Digital 7);
 * Protoboard e cabos Jumper macho-macho;
 * *Nota: O botão utiliza o resistor interno de pull-up do Arduino (`INPUT_PULLUP`).*
 
-## 🔌 Esquema de Ligação
+## Esquema de Ligação (Hardware)
 1. Conecte os LEDs aos pinos 2, 3 e 4, aterrando os polos negativos na linha de GND da protoboard.
 2. Conecte o pino positivo do Buzzer ao pino 8 e o negativo ao GND.
 3. Conecte uma perna do botão ao pino 7 e a perna diagonal oposta ao GND.
